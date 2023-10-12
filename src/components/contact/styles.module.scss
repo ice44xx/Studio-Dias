@@ -52,3 +52,17 @@
     }
   }
 }
+@media (max-width: 380px) {
+  .container {
+    .container_content {
+      .redes_sociais {
+        gap: 30px;
+        i {
+          padding: 13px;
+          width: 65px;
+          height: 65px;
+        }
+      }
+    }
+  }
+}

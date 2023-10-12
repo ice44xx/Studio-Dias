@@ -3,3 +3,13 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1250px) {
+  .splide {
+    min-height: 200px;
+  }
+}
+@media (max-width: 380px) {
+  .splide {
+    min-height: 210px;
+  }
+}

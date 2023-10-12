@@ -30,14 +30,25 @@ const profiles = [
     desc: 'As meninas são profissionais extremamente qualificadas e ajudam muito na autoestima das suas clientes fazendo um lindo trabalho!'
   }
 ];
-
+const breakpoints = {
+  1050: {
+    perPage: 3
+  },
+  700: {
+    perPage: 2
+  },
+  450: {
+    perPage: 1
+  }
+};
 const CarouselFeedback = () => {
   return (
     <Splide
       options={{
         type: 'slide',
         perPage: 4,
-        perMove: 1
+        perMove: 1,
+        breakpoints
       }}
     >
       {profiles.map((profile, index) => (

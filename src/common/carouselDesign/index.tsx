@@ -41,6 +41,17 @@ const img = [
     alt: 'Design de sobrancelhas'
   }
 ];
+const breakpoints = {
+  890: {
+    perPage: 3
+  },
+  480: {
+    perPage: 2
+  },
+  380: {
+    perPage: 1
+  }
+};
 
 const CarouselDesign = () => {
   return (
@@ -48,7 +59,8 @@ const CarouselDesign = () => {
       options={{
         type: 'slide',
         perPage: 4,
-        perMove: 1
+        perMove: 1,
+        breakpoints
       }}
     >
       {img.map((service, index) => (

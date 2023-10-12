@@ -4,3 +4,8 @@
   align-items: center;
   height: 500px;
 }
+@media (max-width: 300px) {
+  .splide {
+    height: 420px;
+  }
+}

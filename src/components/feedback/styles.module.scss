@@ -32,10 +32,38 @@
     color: white;
     font-family: $font-family_2;
     font-size: 20px;
+    text-align: center;
   }
   .container_splide {
     max-width: 1400px;
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    padding: 0;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    .heading {
+      font-size: 40px;
+      .img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .desc {
+      font-size: 18px;
+      padding: 0 20px;
+    }
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    min-height: 0px;
+    padding-bottom: 30px;
   }
 }

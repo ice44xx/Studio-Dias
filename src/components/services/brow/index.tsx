@@ -9,6 +9,14 @@ const extesion = [
   {
     url: 'work/brow/2.png',
     name: 'Lash Lifting'
+  },
+  {
+    url: 'work/brow/2.png',
+    name: 'Lash Lifting'
+  },
+  {
+    url: 'work/brow/2.png',
+    name: 'Lash Lifting'
   }
 ];
 
@@ -22,7 +30,7 @@ const Brow = () => {
       </div>
       <div className={styles.container_content}>
         <div className={styles.container_background}>
-          <CarouselServices image={extesion} page={2} />
+          <CarouselServices image={extesion} page={4} />
         </div>
       </div>
     </div>
