@@ -9,6 +9,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s;
+  border: 2px solid white;
   .overlay {
     position: absolute;
     display: flex;
@@ -65,5 +66,9 @@
         transition: all 0.5s;
       }
     }
+  }
+  &:hover {
+    transform: translateY(-15px);
+    transition: all 0.3s;
   }
 }

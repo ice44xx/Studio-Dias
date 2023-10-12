@@ -11,8 +11,9 @@ const CardService: React.FC<Props> = ({ name, beforeImg, afterImg }) => {
     <div className={styles.card}>
       <div className={styles.background}>
         <div className={styles.circle} onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+          <img src='/assets/circle.png' className={styles.circle_img} />
           <div className={styles.container_img}>
-            <img src={isHover ? beforeImg : afterImg} alt={name} className={styles.img} />
+            <img src={isHover ? afterImg : beforeImg} alt={name} className={styles.img} />
           </div>
         </div>
       </div>

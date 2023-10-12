@@ -6,8 +6,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #54c5c0;
-  background: linear-gradient(rgb(84, 197, 192));
+  background: #effdfc;
+  background-image: url('/assets/background_mimos.png');
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   .heading {
     display: flex;
     text-align: center;
@@ -22,12 +26,13 @@
     .title {
       padding-left: 30px;
       font-family: $font-family_1;
-      color: $color_2;
+      color: $color_3;
       font-size: 50px;
     }
   }
   .container_content {
     width: 100%;
     pointer-events: none;
+    margin-bottom: -10px;
   }
 }

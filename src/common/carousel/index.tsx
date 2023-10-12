@@ -1,3 +1,4 @@
+import styles from './styles.module.scss';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Card from '../card';
@@ -35,7 +36,7 @@ const Carousel = () => {
       }}
     >
       {services.map((service, index) => (
-        <SplideSlide key={index}>
+        <SplideSlide key={index} className={styles.splide}>
           <Card name={service.name} description={service.desc} url={service.url} />
         </SplideSlide>
       ))}

@@ -1,3 +1,4 @@
+import styles from './styles.module.scss';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import FeedbackCard from '../feedbackCard';
@@ -40,7 +41,7 @@ const CarouselFeedback = () => {
       }}
     >
       {profiles.map((profile, index) => (
-        <SplideSlide key={index}>
+        <SplideSlide key={index} className={styles.splide}>
           <FeedbackCard title={profile.name} desc={profile.desc} url={profile.url} />
         </SplideSlide>
       ))}
