@@ -46,3 +46,13 @@
     }
   }
 }
+
+@media (max-width: 1250px) {
+  .container {
+    padding: 30px 15px;
+    .container_content {
+      background-size: contain;
+      padding-bottom: 30px;
+    }
+  }
+}

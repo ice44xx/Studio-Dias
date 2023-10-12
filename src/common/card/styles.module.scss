@@ -10,6 +10,10 @@
   cursor: pointer;
   transition: all 0.3s;
   border: 2px solid white;
+  .img {
+    width: 100%;
+    height: 100%;
+  }
   .overlay {
     position: absolute;
     display: flex;
@@ -73,5 +77,26 @@
   &:hover {
     transform: translateY(-15px);
     transition: all 0.3s;
+  }
+}
+@media (max-width: 1250px) {
+  .card {
+    max-width: 220px;
+    width: 100%;
+    height: 300px;
+    .overlay {
+      gap: 25px;
+      .title {
+        font-size: 30px;
+      }
+      .desc {
+        font-size: 12px;
+      }
+      .btn {
+        .link {
+          font-size: 25px;
+        }
+      }
+    }
   }
 }

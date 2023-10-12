@@ -8,7 +8,7 @@ interface Props {
 const Card: React.FC<Props> = ({ name, description, url }) => {
   return (
     <div className={styles.card}>
-      <img src={url} alt={name} />
+      <img src={url} alt={name} className={styles.img} />
       <div className={styles.overlay}>
         <p className={styles.title}>{name}</p>
         <p className={styles.desc}>{description}</p>

@@ -30,7 +30,7 @@ const Carousel = () => {
   return (
     <Splide
       options={{
-        type: 'loop',
+        type: 'slide',
         perPage: 4,
         perMove: 1
       }}
