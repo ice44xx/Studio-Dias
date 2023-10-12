@@ -5,8 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #effffe;
   overflow: hidden;
-  background: #effdfc;
   background-image: url('/assets/background_mimos.png');
   background-position: center;
   background-size: contain;
@@ -18,9 +18,8 @@
     justify-content: center;
     gap: 10px;
     .heart {
-      margin-top: -12px;
-      width: 60px;
-      height: 60px;
+      width: 55px;
+      height: 55px;
       pointer-events: none;
     }
     .title {
