@@ -11,6 +11,7 @@ const breakpoints = {
     perPage: 2
   }
 };
+
 const CarouselService: React.FC<{ page: number; image: { name: string; url: string }[] }> = ({ image, page }) => {
   return (
     <Splide

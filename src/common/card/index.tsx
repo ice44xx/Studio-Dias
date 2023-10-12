@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import styles from './styles.module.scss';
+
 interface Props {
   name: string;
   description: string;
   url: string;
 }
+
 const Card: React.FC<Props> = ({ name, description, url }) => {
   return (
     <div className={styles.card}>

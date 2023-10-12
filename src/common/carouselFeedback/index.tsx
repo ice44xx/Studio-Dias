@@ -5,31 +5,32 @@ import FeedbackCard from '../cardFeedback';
 
 const profiles = [
   {
-    url: 'work/review/1.png',
+    url: 'work/review/1.webp',
     name: 'Silvia',
     desc: 'Ambiente climatizado! com um astral maravilhoso! Duas profissionais nota 10, atenciosas , responsáveis e são altamente qualificadas, super indico!'
   },
   {
-    url: 'work/review/2.png',
+    url: 'work/review/2.webp',
     name: 'Milene',
     desc: 'Oii, só pra dizer que eu amei o seu trabalho e já recebi muitos elogios do cílios 🥰'
   },
   {
-    url: 'work/review/3.png',
+    url: 'work/review/3.webp',
     name: 'Juliana',
     desc: 'Loira, obriada pelo seu atendimento maravilhoso, tu é uma ótima profissional e muito querida, eu amei 😍'
   },
   {
-    url: 'work/review/4.png',
+    url: 'work/review/4.webp',
     name: 'Rita',
     desc: 'Atendimento personalizado, ambiente aconchegante, resultados impecáveis e o cafezinho... uma delicia! Super recomendo!!!'
   },
   {
-    url: 'work/review/5.png',
+    url: 'work/review/5.webp',
     name: 'Eduarda',
     desc: 'As meninas são profissionais extremamente qualificadas e ajudam muito na autoestima das suas clientes fazendo um lindo trabalho!'
   }
 ];
+
 const breakpoints = {
   1050: {
     perPage: 3

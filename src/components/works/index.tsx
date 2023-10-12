@@ -5,9 +5,9 @@ const Work = () => {
     <div className={styles.container}>
       <div className={styles.container_content}>
         <div className={styles.heading}>
-          <img src='assets/esq.png' alt='Borboleta' className='img-head' />
+          <img src='assets/esq.webp' alt='Borboleta' className='img-head' />
           <p className={styles.title}>Serviços</p>
-          <img src='assets/dire.png' alt='Borboleta' className='img-head' />
+          <img src='assets/dire.webp' alt='Borboleta' className='img-head' />
         </div>
         <div className={styles.container_splide}>
           <Carousel />

@@ -4,35 +4,35 @@ import Link from 'next/link';
 
 const extesion = [
   {
-    url: 'work/lash/1.png',
+    url: 'work/lash/1.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/2.png',
+    url: 'work/lash/2.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/3.png',
+    url: 'work/lash/3.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/4.png',
+    url: 'work/lash/4.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/5.png',
+    url: 'work/lash/5.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/6.png',
+    url: 'work/lash/6.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/7.png',
+    url: 'work/lash/7.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/lash/8.png',
+    url: 'work/lash/8.webp',
     name: 'Lash Lifting'
   }
 ];
@@ -41,9 +41,9 @@ const Extesion = () => {
   return (
     <div className={styles.container}>
       <div className={styles.heading}>
-        <img src='assets/borb1.png' alt='Penas' className={styles.img} />
+        <img src='assets/borb1.webp' alt='Penas' className={styles.img} />
         <p className={styles.title}>Extensão de Cilios</p>
-        <img src='assets/borb2.png' alt='Penas' className={styles.img} />
+        <img src='assets/borb2.webp' alt='Penas' className={styles.img} />
       </div>
       <div className={styles.container_content}>
         <div className={styles.container_content_info}>
@@ -66,7 +66,8 @@ const Extesion = () => {
           </div>
         </div>
         <div className={styles.hero}>
-          <img src='assets/hero-lash.png' alt='' className={styles.img} />
+          <img src='assets/hero-lash.webp' alt='Aline Dias' className={`${styles.img} ${styles.desktop}`} />
+          <img src='assets/hero-lash-mobile.webp' alt='Aline Dias' className={`${styles.img} ${styles.mobile}`} />
         </div>
       </div>
     </div>

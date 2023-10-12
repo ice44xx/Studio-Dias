@@ -6,38 +6,38 @@ import CardService from '../cardService';
 const img = [
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes.png',
-    afterImg: 'befores/depois.png',
+    beforeImg: 'befores/antes.webp',
+    afterImg: 'befores/depois.webp',
     alt: 'Design de sobrancelhas'
   },
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes1.png',
-    afterImg: 'befores/depois1.png',
+    beforeImg: 'befores/antes1.webp',
+    afterImg: 'befores/depois1.webp',
     alt: 'Design de sobrancelhas'
   },
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes2.png',
-    afterImg: 'befores/depois2.png',
+    beforeImg: 'befores/antes2.webp',
+    afterImg: 'befores/depois2.webp',
     alt: 'Design de sobrancelhas'
   },
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes3.png',
-    afterImg: 'befores/depois3.png',
+    beforeImg: 'befores/antes3.webp',
+    afterImg: 'befores/depois3.webp',
     alt: 'Design de sobrancelhas'
   },
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes4.png',
-    afterImg: 'befores/depois4.png',
+    beforeImg: 'befores/antes4.webp',
+    afterImg: 'befores/depois4.webp',
     alt: 'Design de sobrancelhas'
   },
   {
     name: 'Design de sobrancelhas',
-    beforeImg: 'befores/antes5.png',
-    afterImg: 'befores/depois5.png',
+    beforeImg: 'befores/antes5.webp',
+    afterImg: 'befores/depois5.webp',
     alt: 'Design de sobrancelhas'
   }
 ];

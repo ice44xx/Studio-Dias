@@ -5,7 +5,7 @@ const Feedback = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <p className={styles.title}>Feedback</p>
-        <img src='assets/star.png' alt='Estrelas' className={styles.img} />
+        <img src='assets/star.webp' alt='Estrelas' className={styles.img} />
       </div>
       <p className={styles.desc}>Quadros de recados de nossos queridos clientes!</p>
       <div className={styles.container_splide}>

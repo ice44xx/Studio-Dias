@@ -5,7 +5,7 @@ const Home = () => {
     <div className={styles.container}>
       <RedesIcon />
       <div className={styles.container_logo}>
-        <img src='assets/logo.png' alt='Studio Emily Dias' className={styles.logo} />
+        <img src='assets/logo.webp' alt='Studio Emily Dias' className={styles.logo} />
       </div>
       <div className={styles.btn}>
         <p className={styles.title}>Marque seu Horário</p>
