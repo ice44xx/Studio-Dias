@@ -1,0 +1,52 @@
+@import '../../../styles/colors.scss';
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-height: 300px;
+  background-color: $background-color_3;
+  background-image: url('/assets/background-redes.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: $font-family_1;
+    color: $color_4;
+  }
+  .container_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .redes_sociais {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      i {
+        padding: 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: $background-color_4;
+        transition: 0.7s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        &:hover {
+          background-color: $background-color_5;
+          color: $color_3;
+          transform: rotate(360deg);
+        }
+      }
+      a {
+        color: $color_4;
+        text-align: center;
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-const Mimos = () => {
+const Footer = () => {
   return (
     <div className={styles.container}>
       <p>
@@ -11,4 +11,4 @@ const Mimos = () => {
     </div>
   );
 };
-export default Mimos;
+export default Footer;
