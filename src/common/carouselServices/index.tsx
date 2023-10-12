@@ -20,6 +20,7 @@ const CarouselService: React.FC<{ page: number; image: { name: string; url: stri
         perPage: page,
         perMove: 1,
         gap: 10,
+        pagination: false,
         breakpoints
       }}
     >

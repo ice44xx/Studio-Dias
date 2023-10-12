@@ -4,6 +4,7 @@ import Feedback from '@/components/feedback';
 import Footer from '@/components/footer';
 import Home from '@/components/home';
 import Mimos from '@/components/mimos';
+import Navbar from '@/components/navbar';
 import Brow from '@/components/services/brow';
 import Services from '@/components/services/design';
 import Extesion from '@/components/services/extesion';
@@ -18,6 +19,7 @@ const Index = () => {
         <title>Studio Emily Dias</title>
       </Head>
       <main>
+        <Navbar />
         <Home />
         <Work />
         <About />

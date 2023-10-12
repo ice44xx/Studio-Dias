@@ -60,6 +60,7 @@ const CarouselDesign = () => {
         type: 'slide',
         perPage: 4,
         perMove: 1,
+        pagination: false,
         breakpoints
       }}
     >

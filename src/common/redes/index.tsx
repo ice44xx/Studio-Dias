@@ -10,7 +10,7 @@ const RedesIcon = () => {
         </Link>
       </div>
       <div className={styles.icon}>
-        <Link className={styles.link} href='http://api.whatsapp.com/send?1=pt_BR&phone=555196542508' target='_blank'>
+        <Link className={styles.link} href='http://api.whatsapp.com/send?1=pt_BR&phone=555191198818' target='_blank'>
           <i className='fa-brands fa-whatsapp' />
         </Link>
       </div>

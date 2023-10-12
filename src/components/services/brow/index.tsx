@@ -11,11 +11,11 @@ const extesion = [
     name: 'Lash Lifting'
   },
   {
-    url: 'work/brow/2.webp',
+    url: 'work/brow/3.webp',
     name: 'Lash Lifting'
   },
   {
-    url: 'work/brow/2.webp',
+    url: 'work/brow/4.webp',
     name: 'Lash Lifting'
   }
 ];

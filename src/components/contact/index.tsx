@@ -13,7 +13,7 @@ const Contact = () => {
           <a href='https://www.instagram.com/studioemilydias_/?igshid=YmMyMTA2M2Y%3D' target='_blank'>
             <i className='fab fa-instagram'></i>
           </a>
-          <a href=' http://api.whatsapp.com/send?1=pt_BR&phone=555196542508' target='_blank'>
+          <a href=' http://api.whatsapp.com/send?1=pt_BR&phone=555191198818' target='_blank'>
             <i className='fa-brands fa-whatsapp'></i>
           </a>
         </div>
