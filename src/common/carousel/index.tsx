@@ -26,13 +26,26 @@ const services = [
   }
 ];
 
+const breakpoints = {
+  980: {
+    perPage: 3
+  },
+  510: {
+    perPage: 2
+  },
+  350: {
+    perPage: 1
+  }
+};
+
 const Carousel = () => {
   return (
     <Splide
       options={{
         type: 'slide',
         perPage: 4,
-        perMove: 1
+        perMove: 1,
+        breakpoints
       }}
     >
       {services.map((service, index) => (

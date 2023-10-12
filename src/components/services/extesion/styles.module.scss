@@ -9,6 +9,7 @@
   height: 100%;
   background-color: $background-color_3;
   overflow: hidden;
+  padding-top: 80px;
   .heading {
     display: flex;
     justify-content: center;
@@ -37,11 +38,14 @@
     justify-content: center;
     align-items: center;
     .container_content_info {
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 40px;
+      text-align: center;
+      padding: 0 5px;
       .container_info {
         display: flex;
         flex-direction: column;
@@ -94,7 +98,7 @@
         }
       }
       .container_background {
-        margin-left: 200px;
+        padding: 0 15px;
         max-width: 1200px;
         padding: 20px;
         width: 100%;
@@ -107,11 +111,28 @@
     }
     .hero {
       margin-left: auto;
-      width: 320px;
-      height: 500px;
+      width: 300px;
+      height: 450px;
       img {
         width: 100%;
         height: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .container {
+    gap: 30px;
+    .container_content {
+      flex-direction: column;
+      .hero {
+        margin-left: auto;
+        width: 280px;
+        height: 450px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }

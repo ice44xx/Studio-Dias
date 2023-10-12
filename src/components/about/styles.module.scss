@@ -80,3 +80,50 @@
     }
   }
 }
+@media (max-width: 550px) {
+  .container {
+    .container_hero {
+      .desc {
+        padding: 0 10px;
+        font-size: 22px;
+        max-width: 600px;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    .container_hero {
+      .title {
+        font-size: 40px;
+      }
+      .desc {
+        padding: 0 10px;
+        font-size: 22px;
+        max-width: 600px;
+      }
+    }
+    .hero {
+      img {
+        max-width: 190px;
+      }
+    }
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    .container_hero {
+      .title {
+        font-size: 35px;
+      }
+      .desc {
+        font-size: 20px;
+      }
+    }
+    .hero {
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import FeedbackCard from '../feedbackCard';
+import FeedbackCard from '../cardFeedback';
 
 const profiles = [
   {

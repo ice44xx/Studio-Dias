@@ -58,3 +58,31 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1250px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    position: relative;
+    .background {
+      padding: 0;
+      .circle {
+        .circle_img {
+          width: 220px;
+          height: 220px;
+        }
+        .container_img {
+          max-width: 160px;
+          max-height: 160px;
+          .img {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
