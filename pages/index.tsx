@@ -1,5 +1,6 @@
 import About from '@/components/about';
 import Contact from '@/components/contact';
+import Feedback from '@/components/feedback';
 import Footer from '@/components/footer';
 import Home from '@/components/home';
 import Mimos from '@/components/mimos';
@@ -17,6 +18,7 @@ const Index = () => {
         <Work />
         <About />
         <Mimos />
+        <Feedback />
         <Contact />
         <Footer />
       </main>
