@@ -4,6 +4,7 @@ import Feedback from '@/components/feedback';
 import Footer from '@/components/footer';
 import Home from '@/components/home';
 import Mimos from '@/components/mimos';
+import Brow from '@/components/services/brow';
 import Services from '@/components/services/design';
 import Extesion from '@/components/services/extesion';
 import Lash from '@/components/services/lash';
@@ -22,6 +23,7 @@ const Index = () => {
         <About />
         <Services />
         <Lash />
+        <Brow />
         <Extesion />
         <Mimos />
         <Feedback />

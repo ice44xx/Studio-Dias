@@ -2,12 +2,12 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import CardServices from '../cardServices';
 
-const CarouselService: React.FC<{ image: { name: string; url: string }[] }> = ({ image }) => {
+const CarouselService: React.FC<{ page: number; image: { name: string; url: string }[] }> = ({ image, page }) => {
   return (
     <Splide
       options={{
         type: 'slide',
-        perPage: 4,
+        perPage: page,
         perMove: 1
       }}
     >

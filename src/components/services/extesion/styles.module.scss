@@ -1,51 +1,111 @@
 @import '../../../../styles/colors.scss';
 .container {
   position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  height: auto;
+  background-color: $background-color_3;
   overflow: hidden;
-  background: #54c5c0;
   border-bottom: 2px solid white;
   .heading {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
     color: $color_2;
     gap: 10px;
-    align-items: center;
     font-family: $font-family_1;
     font-size: 50px;
     .img {
-      width: 50px;
       pointer-events: none;
+      width: 50px;
     }
   }
+  .container_splide {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+  }
   .container_content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
-    .container_splide {
-      margin-left: 200px;
-      max-width: 1200px;
-      width: 100%;
-      height: 100%;
+    .container_content_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      .container_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: $font-family_1;
+        color: white;
+        .line1 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            font-size: 35px;
+          }
+          i {
+            margin-right: 10px;
+            font-size: 30px;
+            transition: 0.7s;
+          }
+          a {
+            display: flex;
+            text-decoration: none;
+            color: $color_2;
+            &:hover {
+              i {
+                border-radius: 10px;
+                transition: 0.7s;
+                transform: rotate(360deg);
+                color: $color_6;
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+                background-clip: text;
+                -webkit-background-clip: text;
+              }
+            }
+          }
+        }
+        .line2 {
+          font-size: 50px;
+        }
+        .line3 {
+          font-size: 18px;
+          width: 100%;
+          font-size: 30px;
+        }
+      }
+      .container_background {
+        margin-left: 200px;
+        max-width: 1200px;
+        padding: 20px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: $background-color_7;
+        backdrop-filter: blur(8px);
+      }
     }
     .hero {
       margin-left: auto;
-      max-width: 350px;
-      width: 100%;
-      pointer-events: none;
-      .hero_desk {
-        width: 350px;
-      }
-      .hero_mobile {
-        max-width: 350px;
+      width: 320px;
+      height: 500px;
+      img {
         width: 100%;
-        display: none;
+        height: 100%;
       }
     }
   }

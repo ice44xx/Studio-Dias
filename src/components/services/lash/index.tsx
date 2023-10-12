@@ -47,7 +47,7 @@ const Lash = () => {
       <div className={styles.container_content}>
         <div className={styles.container_background}>
           <img src='assets/line.png' alt='Coração' className={styles.line} />
-          <CarouselServices image={lash} />
+          <CarouselServices image={lash} page={4} />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import CarouselServices from '@/common/carouselServices';
 import styles from './styles.module.scss';
+import Link from 'next/link';
 
 const extesion = [
   {
@@ -40,17 +41,32 @@ const Extesion = () => {
   return (
     <div className={styles.container}>
       <div className={styles.heading}>
-        <img src='assets/borb1.png' alt='Borboleta' className={styles.img} />
-        <p>Extensão de Cílios</p>
-        <img src='assets/borb2.png' alt='Borboleta' className={styles.img} />
+        <img src='assets/borb1.png' alt='Penas' className={styles.img} />
+        <p>Extensão de Cilios</p>
+        <img src='assets/borb2.png' alt='Penas' className={styles.img} />
       </div>
       <div className={styles.container_content}>
-        <div className={styles.container_splide}>
-          <CarouselServices image={extesion} />
+        <div className={styles.container_content_info}>
+          <div className={styles.container_background}>
+            <CarouselServices image={extesion} page={4} />
+          </div>
+          <div className={styles.container_info}>
+            <div className={styles.line1}>
+              <Link href='https://www.instagram.com/lash_alinedias/' target='_blank'>
+                <i className='fa-brands fa-instagram'></i>
+                <p>@lash_alinedias</p>
+              </Link>
+            </div>
+            <div className={styles.line2}>
+              <p>Lembrete</p>
+            </div>
+            <div className={styles.line3}>
+              <p>Independente do que estiver sentindo, levante-se, vista-se, faça os cílios e saia para brilhar!</p>
+            </div>
+          </div>
         </div>
         <div className={styles.hero}>
-          <img src='assets/hero-lash.png' alt='Lash_alinedias' className={styles.hero_desk} />
-          <img src='assets/hero-lash-mobile.png' alt='Lash_alinedias' className={styles.hero_mobile} />
+          <img src='assets/hero-lash.png' alt='' className={styles.img} />
         </div>
       </div>
     </div>
