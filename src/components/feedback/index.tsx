@@ -1,3 +1,4 @@
+import CarouselFeedback from '@/common/carouselFeedback';
 import styles from './styles.module.scss';
 const Feedback = () => {
   return (
@@ -7,6 +8,9 @@ const Feedback = () => {
         <img src='assets/star.png' alt='Estrelas' className={styles.img} />
       </div>
       <p className={styles.desc}>Quadros de recados de nossos queridos clientes!</p>
+      <div className={styles.container_splide}>
+        <CarouselFeedback />
+      </div>
     </div>
   );
 };

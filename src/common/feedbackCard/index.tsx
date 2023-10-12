@@ -13,13 +13,15 @@ const FeedbackCard: React.FC<Props> = ({ title, desc, url }) => {
       <div className={styles.img_box}>
         <img src={url} alt={title} />
       </div>
-      <div className='star'>
-        {stars.map((_, index) => (
-          <i key={index} className='fa-solid fa-star'></i>
-        ))}
+      <div className={styles.container_content}>
+        <div className={styles.star}>
+          {stars.map((_, index) => (
+            <i key={index} className='fa-solid fa-star'></i>
+          ))}
+        </div>
+        <p className={styles.title}>{title}</p>
+        <p className={styles.desc}>{desc}</p>
       </div>
-      <p className='title'>{title}</p>
-      <p className='desc'>{desc}</p>
     </div>
   );
 };

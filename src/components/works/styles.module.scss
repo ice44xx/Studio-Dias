@@ -6,11 +6,22 @@
   padding-bottom: 50px;
   background: rgb(84, 197, 192);
   background: linear-gradient(180deg, rgb(84, 197, 192) 20%, rgb(255, 255, 255) 99%);
+  padding: 30px;
   .container_content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('/assets/banner.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     .heading {
       display: flex;
       justify-content: center;

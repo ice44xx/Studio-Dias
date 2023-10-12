@@ -1,16 +1,17 @@
 @import '../../../styles/colors.scss';
 .container {
-  border-top: 2px solid #fff;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+  border-top: 2px solid #fff;
   gap: 20px;
   background: rgb(255, 255, 255);
-  box-shadow: 1px -3px 14px -5px rgba(0, 0, 0, 0.75);
   background: linear-gradient(36deg, rgb(255, 255, 255) 0%, rgb(84, 197, 192) 80%);
-  height: 800px;
   .heading {
     display: flex;
     justify-content: center;
@@ -31,5 +32,10 @@
     color: white;
     font-family: $font-family_2;
     font-size: 20px;
+  }
+  .container_splide {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
   }
 }

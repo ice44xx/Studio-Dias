@@ -1,0 +1,54 @@
+@import '../../../../styles/colors.scss';
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  gap: 40px;
+  background-color: $background-color_3;
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: $color_2;
+    gap: 10px;
+    font-family: $font-family_1;
+    font-size: 50px;
+    .img {
+      pointer-events: none;
+      width: 100px;
+    }
+  }
+  .container_splide {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+  }
+  .container_content {
+    max-width: 1200px;
+    .container_background {
+      padding: 20px;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      background-color: $background-color_7;
+      backdrop-filter: blur(8px);
+    }
+  }
+  .line {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 115%;
+    height: 300px;
+
+    pointer-events: none;
+  }
+}
