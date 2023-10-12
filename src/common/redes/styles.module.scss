@@ -1,0 +1,37 @@
+@import '../../../styles/colors.scss';
+.redes {
+  z-index: 999;
+  position: fixed;
+  right: 0;
+  padding: 2px;
+  display: block;
+  top: 8rem;
+  position: fixed;
+  .icon {
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 2px;
+    .link {
+      text-decoration: none;
+      i {
+        background-color: $background-color_4;
+        border-radius: 100%;
+        padding: 10px;
+        position: relative;
+        font-size: 23px;
+        color: $color_4;
+        display: block;
+        transition: 0.7s;
+        &:hover {
+          color: $color_3;
+          transition: 1s;
+          background-color: $background-color_5;
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}

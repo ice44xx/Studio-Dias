@@ -1,0 +1,35 @@
+@import '../../../styles/colors.scss';
+.container {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  background: rgb(84, 197, 192);
+  background: linear-gradient(180deg, rgb(84, 197, 192) 20%, rgb(255, 255, 255) 99%);
+  .container_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .heading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      color: $color_2;
+      gap: 10px;
+      font-family: $font-family_1;
+      font-size: 50px;
+      height: 100px;
+      img {
+        width: 60px;
+      }
+    }
+    .container_splide {
+      max-width: 1400px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
