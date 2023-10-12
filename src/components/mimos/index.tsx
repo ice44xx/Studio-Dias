@@ -2,12 +2,13 @@ import styles from './styles.module.scss';
 const Mimos = () => {
   return (
     <div className={styles.container}>
-      <p>
-        <a href='/privacy.html'>Privacy Policy</a> - 2022 | Prod por{' '}
-        <a href=' http://api.whatsapp.com/send?1=pt_BR&phone=5551985981382' target='_blank'>
-          NSHCODE <i className='fa-regular fa-heart'></i>
-        </a>
-      </p>
+      <div className={styles.heading}>
+        <p className={styles.title}>Mimos</p>
+        <img src='assets/heart.png' alt='Coração' className={styles.heart} />
+      </div>
+      <div className={styles.container_content}>
+        <img src='assets/mimos.png' alt='mimos Studio Emily Dias' />
+      </div>
     </div>
   );
 };

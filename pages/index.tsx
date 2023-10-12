@@ -2,6 +2,7 @@ import About from '@/components/about';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
 import Home from '@/components/home';
+import Mimos from '@/components/mimos';
 import Work from '@/components/works';
 import Head from 'next/head';
 
@@ -15,6 +16,7 @@ const Index = () => {
         <Home />
         <Work />
         <About />
+        <Mimos />
         <Contact />
         <Footer />
       </main>

@@ -1,0 +1,33 @@
+@import '../../../styles/colors.scss';
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #54c5c0;
+  background: linear-gradient(rgb(84, 197, 192));
+  .heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    .heart {
+      margin-top: -12px;
+      width: 60px;
+      height: 60px;
+      pointer-events: none;
+    }
+    .title {
+      padding-left: 30px;
+      font-family: $font-family_1;
+      color: $color_2;
+      font-size: 50px;
+    }
+  }
+  .container_content {
+    width: 100%;
+    pointer-events: none;
+  }
+}

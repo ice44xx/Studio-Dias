@@ -1,0 +1,56 @@
+@import '../../../styles/colors.scss';
+.card {
+  border: 2px solid white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: top;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 480px;
+  background-color: $background-color_10;
+  border-top-left-radius: 40px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px 10px 20px 10px;
+  .title {
+    color: $color_1;
+    font-family: $font-family_1;
+    font-size: 40px;
+  }
+  .desc {
+    color: $color_1;
+    font-family: $font-family_2;
+    font-size: 15px;
+    padding: 0 10px 10px 10px;
+  }
+  .star {
+    i {
+      color: $color_7;
+    }
+  }
+  .img_box {
+    background-color: $background-color_11;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    img {
+      margin: 15px;
+      width: 150px;
+      padding: 5px;
+      border: 4px solid white;
+      border-radius: 100%;
+      pointer-events: none;
+    }
+  }
+  &:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+  }
+}
