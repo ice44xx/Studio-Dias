@@ -42,7 +42,7 @@ const Extesion = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <img src='assets/borb1.png' alt='Penas' className={styles.img} />
-        <p>Extensão de Cilios</p>
+        <p className={styles.title}>Extensão de Cilios</p>
         <img src='assets/borb2.png' alt='Penas' className={styles.img} />
       </div>
       <div className={styles.container_content}>
@@ -52,7 +52,7 @@ const Extesion = () => {
           </div>
           <div className={styles.container_info}>
             <div className={styles.line1}>
-              <Link href='https://www.instagram.com/lash_alinedias/' target='_blank'>
+              <Link className={styles.link} href='https://www.instagram.com/lash_alinedias/' target='_blank'>
                 <i className='fa-brands fa-instagram'></i>
                 <p>@lash_alinedias</p>
               </Link>

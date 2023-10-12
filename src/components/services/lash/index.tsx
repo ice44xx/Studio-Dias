@@ -41,7 +41,7 @@ const Lash = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <img src='assets/pen1.png' alt='Penas' className={styles.img} />
-        <p>Lash Lifting</p>
+        <p className={styles.title}>Lash Lifting</p>
         <img src='assets/pen2.png' alt='Penas' className={styles.img} />
       </div>
       <div className={styles.container_content}>

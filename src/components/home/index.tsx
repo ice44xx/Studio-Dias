@@ -5,7 +5,9 @@ const Home = () => {
     <div className={styles.container}>
       <RedesIcon />
       <img src='assets/logo.png' alt='Studio Emily Dias' className={styles.logo} />
-      <button className='btn'>Venha nos conhecer</button>
+      <div className={styles.btn}>
+        <p className={styles.title}>Marque seu Horário</p>
+      </div>
     </div>
   );
 };

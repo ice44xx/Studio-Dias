@@ -5,7 +5,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 75%, rgb(84, 197, 192) 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(84, 197, 192) 80%);
   .container_hero {
     max-width: 1200px;
     width: 100%;
@@ -16,7 +16,7 @@
     .title {
       font-family: $font-family_1;
       font-size: 60px;
-      color: $color_3;
+      color: $color_2;
     }
     .desc {
       margin: 30px 0;
@@ -24,7 +24,7 @@
       text-align: center;
       font-family: $font-family_1;
       max-width: 900px;
-      color: $color_3;
+      color: $color_2;
     }
     .icon {
       width: 100px;

@@ -9,7 +9,6 @@
   height: 100%;
   background-color: $background-color_3;
   overflow: hidden;
-  box-shadow: 0px -4px 15px 4px rgba(0, 0, 0, 0.75);
   .heading {
     display: flex;
     justify-content: center;
@@ -19,10 +18,12 @@
     color: $color_2;
     gap: 10px;
     font-family: $font-family_1;
-    font-size: 50px;
+    .title {
+      font-size: 50px;
+    }
     .img {
       pointer-events: none;
-      width: 50px;
+      width: 40px;
     }
   }
   .container_splide {
@@ -61,10 +62,15 @@
             font-size: 30px;
             transition: 0.7s;
           }
-          a {
+          .link {
             display: flex;
+            justify-content: center;
+            align-items: center;
             text-decoration: none;
             color: $color_2;
+            i {
+              margin-top: -2px;
+            }
             &:hover {
               i {
                 border-radius: 10px;

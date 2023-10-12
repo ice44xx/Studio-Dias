@@ -6,7 +6,7 @@ const Design = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <img src='assets/flor.png' alt='Flor' className={styles.img} />
-        <p>Design de Sobrancelhas</p>
+        <p className={styles.title}>Design de Sobrancelhas</p>
         <img src='assets/flor.png' alt='Flor' className={styles.img} />
       </div>
       <div className={styles.container_splide}>

@@ -6,11 +6,9 @@
   height: 50px;
   text-align: center;
   font-family: $font-family_2;
-  a {
+  .link {
     text-decoration: none;
     color: $color_3;
-    &:hover {
-      color: $color_3;
-    }
+    margin-right: 5px;
   }
 }

@@ -8,4 +8,18 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(0deg, rgb(84, 197, 192) 10%, rgb(255, 255, 255) 99%);
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .title {
+      font-size: 40px;
+      color: $color_2;
+      font-family: $font-family_1;
+    }
+    i {
+      font-size: 40px;
+    }
+  }
 }

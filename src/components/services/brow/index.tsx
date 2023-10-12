@@ -17,7 +17,7 @@ const Brow = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <img src='assets/n1.png' alt='Penas' className={styles.img} />
-        <p>Brow Lamination</p>
+        <p className={styles.title}>Brow Lamination</p>
         <img src='assets/n2.png' alt='Penas' className={styles.img} />
       </div>
       <div className={styles.container_content}>

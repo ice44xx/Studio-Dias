@@ -6,7 +6,7 @@ const Work = () => {
       <div className={styles.container_content}>
         <div className={styles.heading}>
           <img src='assets/esq.png' alt='Borboleta' className='img-head' />
-          <p>Serviços</p>
+          <p className={styles.title}>Serviços</p>
           <img src='assets/dire.png' alt='Borboleta' className='img-head' />
         </div>
         <div className={styles.container_splide}>
