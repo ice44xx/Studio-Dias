@@ -4,36 +4,36 @@ import Link from 'next/link';
 
 const extesion = [
   {
-    url: 'work/lash/1.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/1.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/2.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/2.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/3.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/3.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/4.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/4.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/5.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/5.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/6.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/6.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/7.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/7.webp',
+    name: 'Extensão de Cilios'
   },
   {
-    url: 'work/lash/8.webp',
-    name: 'Lash Lifting'
+    url: 'work/ext/8.webp',
+    name: 'Extensão de Cilios'
   }
 ];
 
