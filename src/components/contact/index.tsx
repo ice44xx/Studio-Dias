@@ -6,7 +6,7 @@ const Contact = () => {
         <p className={styles.title}>Redes Sociais</p>
       </div>
       <div className={styles.container_content}>
-        <div className={styles.redes_sociais}>
+        <div className={styles.redes_sociais} data-aos='fade-up'>
           <a href='https://www.facebook.com/Studio-Emily-Dias-102746459174233' target='_blank'>
             <i className='fab fa-facebook-f'></i>
           </a>

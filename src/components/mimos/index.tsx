@@ -7,7 +7,7 @@ const Mimos = () => {
         <img src='assets/heart.webp' alt='Coração' className={styles.heart} />
       </div>
       <div className={styles.container_content}>
-        <img src='assets/mimos.webp' alt='mimos Studio Emily Dias' />
+        <img src='assets/mimos.webp' alt='mimos Studio Emily Dias' data-aos='fade-up' />
       </div>
     </div>
   );

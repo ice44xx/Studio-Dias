@@ -20,8 +20,11 @@ const Index = () => {
       </Head>
       <main>
         <Navbar />
+        <a id='home' />
         <Home />
+        <a id='services' />
         <Work />
+        <a id='about' />
         <About />
         <Services />
         <Lash />
@@ -29,6 +32,7 @@ const Index = () => {
         <Extesion />
         <Mimos />
         <Feedback />
+        <a id='contact' />
         <Contact />
         <Footer />
       </main>

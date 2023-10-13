@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 const RedesIcon = () => {
   return (
-    <div className={styles.redes}>
+    <div className={styles.redes} data-aos='fade-left'>
       <div className={styles.icon}>
         <Link className={styles.link} href='https://www.instagram.com/studioemilydias_/?igshid=YmMyMTA2M2Y%3D' target='_blank'>
           <i className='fab fa-instagram' />

@@ -8,7 +8,6 @@ class MyDocument extends Document {
           <meta http-equiv='Content-Language' content='pt-BR' />
           <meta http-equiv='X-UA-Compatible' content='IE=edge' />
           <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-          <title>Studio Emily Dias</title>
           <meta property='og:title' content='Studio Emily Dias' />
           <meta property='og:type' content='website' />
           <meta property='og:url' content='https://studioemilydias.com/' />

@@ -34,14 +34,81 @@
   .mobile {
     display: none;
   }
+  .mobile_wall {
+    opacity: 0;
+  }
 }
-@media (max-width: 750px) {
+@media (max-width: 980px) {
   .container {
+    background-color: transparent;
+    backdrop-filter: blur(0px);
     .desktop {
+      display: none;
+    }
+    .mobile {
+      display: flex;
+    }
+    .mobile_wall {
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      background-color: rgba(255, 255, 255, 0.853);
+      backdrop-filter: blur(5px);
+      top: 0;
+      left: 0;
+      width: 200px;
+      min-height: 100vh;
+      opacity: 1;
+      transition: all 0.5s;
       ul {
+        margin-top: -50px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         gap: 40px;
+        list-style: none;
+        .logo {
+          max-width: 100px;
+          width: 100%;
+          height: 100%;
+        }
         .link {
-          font-size: 35px;
+          text-decoration: none;
+          color: $color_1;
+          li {
+            font-size: 35px;
+            font-family: $font-family_1;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover {
+              transform: translateY(-8px);
+              transition: all 0.3s;
+              color: $color_3;
+            }
+          }
+        }
+      }
+    }
+    .close {
+      margin-left: -300px;
+      opacity: 0;
+      transition: all 0.5s;
+    }
+  }
+}
+@media (max-width: 510px) {
+  .container {
+    .mobile_wall {
+      ul {
+        .link {
+          li {
+            font-size: 8vw;
+          }
         }
       }
     }

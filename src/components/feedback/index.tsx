@@ -7,7 +7,9 @@ const Feedback = () => {
         <p className={styles.title}>Feedback</p>
         <img src='assets/star.webp' alt='Estrelas' className={styles.img} />
       </div>
-      <p className={styles.desc}>Quadros de recados de nossos queridos clientes!</p>
+      <p className={styles.desc} data-aos='fade-left'>
+        Quadros de recados de nossos queridos clientes!
+      </p>
       <div className={styles.container_splide}>
         <CarouselFeedback />
       </div>

@@ -51,21 +51,21 @@ const Extesion = () => {
             <CarouselServices image={extesion} page={4} />
           </div>
           <div className={styles.container_info}>
-            <div className={styles.line1}>
+            <div className={styles.line1} data-aos='fade-left'>
               <Link className={styles.link} href='https://www.instagram.com/lash_alinedias/' target='_blank'>
                 <i className='fa-brands fa-instagram'></i>
                 <p>@lash_alinedias</p>
               </Link>
             </div>
-            <div className={styles.line2}>
+            <div className={styles.line2} data-aos='fade-right'>
               <p>Lembrete</p>
             </div>
-            <div className={styles.line3}>
+            <div className={styles.line3} data-aos='fade-left'>
               <p>Independente do que estiver sentindo, levante-se, vista-se, faça os cílios e saia para brilhar!</p>
             </div>
           </div>
         </div>
-        <div className={styles.hero}>
+        <div className={styles.hero} data-aos='fade-left'>
           <img src='assets/hero-lash.webp' alt='Aline Dias' className={`${styles.img} ${styles.desktop}`} />
           <img src='assets/hero-lash-mobile.webp' alt='Aline Dias' className={`${styles.img} ${styles.mobile}`} />
         </div>

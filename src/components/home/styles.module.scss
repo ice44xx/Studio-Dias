@@ -28,13 +28,18 @@
     align-items: center;
     gap: 10px;
     text-align: center;
-    .title {
-      font-size: 40px;
-      color: $color_2;
-      font-family: $font-family_1;
-    }
-    i {
-      font-size: 40px;
+    .link {
+      text-decoration: none;
+      .title {
+        font-size: 40px;
+        color: $color_2;
+        font-family: $font-family_1;
+        transition: all 0.5s;
+        &:hover {
+          transform: scale(105%);
+          transition: all 0.5s;
+        }
+      }
     }
   }
 }
