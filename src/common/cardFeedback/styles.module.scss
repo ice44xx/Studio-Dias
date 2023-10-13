@@ -143,14 +143,14 @@
 }
 @media (max-width: 450px) {
   .card {
-    width: 290px;
-    height: 440px;
+    width: 260px;
+    height: 420px;
     .container_content {
       .title {
         font-size: 40px;
       }
       .desc {
-        font-size: 15px;
+        font-size: 14px;
       }
     }
     .img_box {
@@ -170,11 +170,6 @@
       }
       .desc {
         font-size: 12px;
-      }
-    }
-    .img_box {
-      img {
-        max-width: 120px;
       }
     }
   }

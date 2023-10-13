@@ -22,18 +22,6 @@ const extesion = [
   {
     url: 'work/ext/5.webp',
     name: 'Extensão de Cilios'
-  },
-  {
-    url: 'work/ext/6.webp',
-    name: 'Extensão de Cilios'
-  },
-  {
-    url: 'work/ext/7.webp',
-    name: 'Extensão de Cilios'
-  },
-  {
-    url: 'work/ext/8.webp',
-    name: 'Extensão de Cilios'
   }
 ];
 
