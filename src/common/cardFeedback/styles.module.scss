@@ -43,12 +43,21 @@
     align-items: center;
     gap: 10px;
     text-align: center;
+    .star {
+      margin-top: 25px;
+    }
     .title {
+      width: 100%;
       color: $color_1;
       font-family: $font-family_1;
       font-size: 40px;
     }
     .desc {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      width: 100%;
+      height: 60%;
       color: $color_1;
       font-family: $font-family_2;
       font-size: 15px;
@@ -125,6 +134,11 @@
         font-size: 12px;
       }
     }
+    .img_box {
+      img {
+        max-width: 120px;
+      }
+    }
   }
 }
 @media (max-width: 450px) {
@@ -139,6 +153,11 @@
         font-size: 15px;
       }
     }
+    .img_box {
+      img {
+        max-width: 140px;
+      }
+    }
   }
 }
 @media (max-width: 300px) {
@@ -151,6 +170,11 @@
       }
       .desc {
         font-size: 12px;
+      }
+    }
+    .img_box {
+      img {
+        max-width: 120px;
       }
     }
   }
