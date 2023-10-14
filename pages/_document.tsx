@@ -17,7 +17,7 @@ class MyDocument extends Document {
             content='Sou designer de Sobrancelhas e inaugurei meu Studio, fazendo somente designer de sobrancelhas hoje em dia temos diversos procedimentos como lash lifting, brow lamination e extensões de cílios.'
           />
           <meta name='google-site-verification' content='mMvRPaOnLKeSMC14m_wRbcN3xTkBsRfv4nheepivZEM' />
-          <link rel='shortcut icon' href='/assets/logo-min.png' />
+          <link rel='shortcut icon' href='/assets/logo-min.webp' />
           <link href='https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;300;400;500&display=swap' rel='stylesheet' />
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link

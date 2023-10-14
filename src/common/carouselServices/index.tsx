@@ -12,7 +12,10 @@ const breakpoints = {
   }
 };
 
-const CarouselService: React.FC<{ page: number; image: { name: string; url: string }[] }> = ({ image, page }) => {
+const CarouselService: React.FC<{
+  page: number;
+  image: { name: string; url: string }[];
+}> = ({ image, page }) => {
   return (
     <Splide
       options={{
@@ -21,7 +24,8 @@ const CarouselService: React.FC<{ page: number; image: { name: string; url: stri
         perMove: 1,
         gap: 10,
         pagination: false,
-        breakpoints
+        breakpoints,
+        autoplay: true
       }}
     >
       {image.map((item, index) => (

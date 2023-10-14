@@ -5,7 +5,7 @@ import FeedbackCard from '../cardFeedback';
 
 const profiles = [
   {
-    url: 'work/review/1.webp',
+    url: 'work/review/3.webp',
     name: 'Silvia',
     desc: 'Ambiente climatizado! com um astral maravilhoso! Duas profissionais nota 10, atenciosas , responsáveis e são altamente qualificadas, super indico!'
   },
@@ -15,7 +15,7 @@ const profiles = [
     desc: 'Oii, só pra dizer que eu amei o seu trabalho e já recebi muitos elogios do cílios 🥰'
   },
   {
-    url: 'work/review/3.webp',
+    url: 'work/review/1.webp',
     name: 'Juliana',
     desc: 'Loira, obriada pelo seu atendimento maravilhoso, tu é uma ótima profissional e muito querida, eu amei 😍'
   },

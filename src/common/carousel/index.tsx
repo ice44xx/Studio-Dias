@@ -33,7 +33,7 @@ const breakpoints = {
   510: {
     perPage: 2
   },
-  350: {
+  400: {
     perPage: 1
   }
 };
